@@ -1,0 +1,116 @@
+body {
+	background: url("background.png") no-repeat;
+}
+
+.header {
+	background: url("rsz_dumbheader.jpg") no-repeat;
+	height: 225px;
+    	width: 1000px; 
+	position: absolute;
+	left: 400px;
+}
+
+.wholedamnthing {
+	position: absolute;
+	top: 230px;
+	left: 600px;
+}
+
+.addtolistb {
+	 background-color: #836E8A;
+    	border: none;
+    	color: white;
+    	padding: 11px 12px;
+    	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	font-family: verdana;
+height: 40px;
+}
+
+#todolist {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 40%;
+	height: 20%;
+	font-family: verdana;
+	font-size: 20px;
+	position: absolute;
+	top: 320px;
+	left: 500px;
+}
+
+.title {
+	background-color: #6F5B73;
+	width: 50%;
+	height: 30%;
+}
+
+#todolist table, th, td, tr {
+	border: 3px solid black;
+	padding: 15px;
+	
+	
+	
+	
+}
+
+#todolist  {
+	border: 1px solid black;
+	padding: 15px;
+}
+
+#todolist td {
+	
+	background-color: #656366;
+}
+.checkmarker {
+	background-color: #B5C7C1;
+	width: 50%;
+	height: 30%;
+}
+
+.checkmarker:hover {
+	background-color: #ABD1C4;
+	
+}
+
+.notcheckmarker {
+	background-color: #D6C1C1;
+	width: 50%;
+	height: 30%;
+}
+
+
+.notcheckmarker:hover {
+	background-color: #D9BABB;
+}
+
+.edit {
+	background-color: #B8C3CF;
+	width: 25%;
+	height: 30%;
+}
+
+.edit:hover {
+	background-color: #9DC0E3;
+}
+
+.addlist tr {
+  
+  border: none;
+  display: block;
+
+}
+
+.addlist td {
+  
+  border: 1px solid black;
+  display: block;
+ border-style: solid;
+    border-right-width: 3px;
+}
+
+
+

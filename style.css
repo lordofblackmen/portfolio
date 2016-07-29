@@ -1,0 +1,574 @@
+body {
+	margin: 0px;
+}
+
+
+#header {
+	width: 1900px;
+	height: 600px;
+	background-color: #252525;
+}
+
+
+#logo {
+	height: 50px;
+	width: 150px;
+	background-color: #bebebe;
+	position: absolute;
+	margin-top: 22px;
+	left: 200px;
+}
+
+#navbar ul {
+	position: absolute;
+	right: 800px;
+	top: 30px;
+	
+}
+
+
+
+#navbar li {
+	
+	display: inline;
+	font-family: verdana;
+	font-size: 24px;
+	color: white;
+	position: relative;
+	margin: 30px;
+	
+}
+
+#navbar li a:hover {
+	color: grey;
+
+}
+
+
+#navbarcontact ul {
+	position: absolute;
+	right: 100px;
+	top: 30px;
+	
+}
+
+
+
+#navbarcontact li {
+	
+	display: inline;
+	font-family: verdana;
+	font-size: 24px;
+	color: white;
+	position: relative;
+	margin: 25px;
+	
+}
+
+#navbarcontact li a:hover {
+	color: grey;
+
+}
+
+
+#headertitle {
+	position: absolute;
+	top: 180px;
+	left: 200px;
+}
+
+#headertitle h1 {
+	font-family: verdana;
+	color: #bebebe;
+}
+
+
+#headerdescription {
+	position: absolute;
+	top: 300px;
+	left: 200px;
+}
+
+#headerdescription p {
+	font-family: verdana;
+	color: #bebebe;
+	font-size: 18px;
+}
+
+#calltoaction {
+	height: 30px;
+	width: 140px;
+	background-color: red;
+	position: absolute;
+	top: 450px;
+	left: 200px;
+}
+
+
+#calltoaction p {
+	font-family: verdana;
+	align: center;
+	color: #bebebe;
+	position: relative;
+	bottom: 12px;
+
+}
+
+#featured {
+	width: 1900px;
+	height: 520px;
+	background-color: #dedede;
+}
+
+#featuredtitle h1 {
+	font-family: verdana;
+	color: black;
+	font-size: 25px;
+	position: absolute;
+	top: 615px;
+	left: 200px;
+}
+
+
+
+#projecttitle h3 {
+	color: black;
+	font-family: verdana;
+	font-size: 22px;
+	position: absolute;
+	top: 685px;
+	left: 200px;
+}
+
+
+#date {
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 760px;
+	left: 200px;
+
+}
+
+#datetext {
+	font-family: verdana;
+	color: black;
+	font-size: 15px;
+	position: absolute;
+	top: 742px;
+	left: 215px;
+}
+
+
+#featureddes p {
+	font-family: verdana;
+	color: black;
+	font-size: 15px;
+	position: absolute;
+	top: 760px;
+	left: 215px;
+}
+
+#fetsquare {
+	width: 580px;
+	height: 320px;
+	background-color: black;
+	position: absolute;
+	top: 710px;
+	left: 650px;
+	
+}
+
+#feedback {
+	width: 1900px;
+	height: 250px;
+	background-color: #bebebe;
+}
+
+#clientfeedback h1 {
+	font-family: verdana;
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	top: 1130px;
+	left: 200px;
+}
+
+#clienttext p {
+	font-family: verdana;
+	color: black;
+	font-size: 15px;
+	position: absolute;
+	top: 1178px;
+	left: 200px;
+}
+
+#clientcircle {
+	width: 36px;
+	height: 36px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: 200px;
+	top: 1310px;
+}
+
+#clientname p {
+	font-family: verdana;
+	color: black;
+	font-size: 15px;
+	position: absolute;
+	top: 1295px;
+	left: 250px;
+}
+
+#clientcompany p {
+	font-family: verdana;
+	color: black;
+	font-size: 15px;
+	position: absolute;
+	top: 1310px;
+	left: 250px;
+}
+
+#work {
+	width: 1900px;
+	height: 800px;
+	background-color: #dedede;
+}
+
+#mywork {
+	font-family: verdana;
+	color: black;
+	font-size: 13px;
+	position: absolute;
+	top: 1380px;
+	left: 200px;
+}
+
+#worksquare1 {
+	position: absolute;
+	left: 200px;
+	top: 1475px;
+	height: 140px;
+	width: 200px;
+	background-color: black;
+}
+
+#worksquare2 {
+	position: absolute;
+	left: 420px;
+	top: 1475px;
+	height: 140px;
+	width: 200px;
+	background-color: black;
+}
+
+#worksquare3 {
+	position: absolute;
+	left: 640px;
+	top: 1475px;
+	height: 140px;
+	width: 200px;
+	background-color: black;
+}
+
+#worksquare4 {
+	position: absolute;
+	left: 860px;
+	top: 1475px;
+	height: 140px;
+	width: 200px;
+	background-color: black;
+}
+
+#worktitle1 {
+	font-family: verdana;
+	color: black;
+	font-size: 17px;
+	position: absolute;
+	top: 1600px;
+	left: 200px;
+}
+
+#worktitle2 {
+	font-family: verdana;
+	color: black;
+	font-size: 17px;
+	position: absolute;
+	top: 1600px;
+	left: 420px;
+}
+
+
+#worktitle3 {
+	font-family: verdana;
+	color: black;
+	font-size: 17px;
+	position: absolute;
+	top: 1600px;
+	left: 640px;
+}
+
+
+#worktitle4 {
+	font-family: verdana;
+	color: black;
+	font-size: 17px;
+	position: absolute;
+	top: 1600px;
+	left: 860px;
+}
+
+
+#workdes1 p {
+	font-family: verdana;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 1640px;
+	left: 200px;
+}
+
+#workdes2 p {
+	font-family: verdana;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 1640px;
+	left: 420px;
+}
+
+
+#workdes3 p {
+	font-family: verdana;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 1640px;
+	left: 640px;
+}
+
+
+#workdes4 p {
+	font-family: verdana;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 1640px;
+	left: 860px;
+}
+
+
+#worksquare5 {
+	position: absolute;
+	left: 200px;
+	top: 1775px;
+	height: 140px;
+	width: 200px;
+	background-color: black;
+}
+
+#worksquare6 {
+	position: absolute;
+	left: 420px;
+	top: 1775px;
+	height: 140px;
+	width: 200px;
+	background-color: black;
+}
+
+#worksquare7 {
+	position: absolute;
+	left: 640px;
+	top: 1775px;
+	height: 140px;
+	width: 200px;
+	background-color: black;
+}
+
+#worksquare8 {
+	position: absolute;
+	left: 860px;
+	top: 1775px;
+	height: 140px;
+	width: 200px;
+	background-color: black;
+}
+
+#worktitle5 {
+	font-family: verdana;
+	color: black;
+	font-size: 17px;
+	position: absolute;
+	top: 1900px;
+	left: 200px;
+}
+
+#worktitle6 {
+	font-family: verdana;
+	color: black;
+	font-size: 17px;
+	position: absolute;
+	top: 1900px;
+	left: 420px;
+}
+
+
+#worktitle7 {
+	font-family: verdana;
+	color: black;
+	font-size: 17px;
+	position: absolute;
+	top: 1900px;
+	left: 640px;
+}
+
+
+#worktitle8 {
+	font-family: verdana;
+	color: black;
+	font-size: 17px;
+	position: absolute;
+	top: 1900px;
+	left: 860px;
+}
+
+#workdes5 p {
+	font-family: verdana;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 1940px;
+	left: 200px;
+}
+
+#workdes6 p {
+	font-family: verdana;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 1940px;
+	left: 420px;
+}
+
+
+#workdes7 p {
+	font-family: verdana;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 1940px;
+	left: 640px;
+}
+
+
+#workdes8 p {
+	font-family: verdana;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	top: 1940px;
+	left: 860px;
+}
+
+
+#contact {
+	width: 1900px;
+	height: 340px;
+	background-color: #bebebe;
+}
+
+
+#contacttitle h1 {
+	font-family: verdana;
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	top: 2175px;
+	left: 200px;
+}
+
+#contactgiantsquare {
+	width: 500px;
+	height: 190px;
+	background-color: white;
+	position: absolute;
+	top: 2250px;
+	left: 200px;
+}
+
+#contactsmall1 {
+	width: 350px;
+	height: 40px;
+	background-color: white;
+	position: absolute;
+	top: 2250px;
+	left: 720px;
+}
+
+#contactsmall2 {
+	width: 350px;
+	height: 40px;
+	background-color: white;
+	position: absolute;
+	top: 2300px;
+	left: 720px;
+}
+
+#contactsmall3 {
+	width: 350px;
+	height: 40px;
+	background-color: white;
+	position: absolute;
+	top: 2350px;
+	left: 720px;
+}
+
+#contactsmall4 {
+	width: 350px;
+	height: 40px;
+	background-color: black;
+	position: absolute;
+	top: 2400px;
+	left: 720px;
+}
+
+#contactbox1 {
+	width: 25px;
+	height: 25px;
+	background-color: black;
+	position: absolute;
+	top: 2257px;
+	left: 727px;
+}
+
+#contactbox2 {
+	width: 25px;
+	height: 25px;
+	background-color: black;
+	position: absolute;
+	top: 2307px;
+	left: 727px;
+}
+
+#contactbox3 {
+	width: 25px;
+	height: 25px;
+	background-color: black;
+	position: absolute;
+	top: 2357px;
+	left: 727px;
+}
+
+#contactbox4 {
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	position: absolute;
+	top: 2407px;
+	left: 727px;
+}
